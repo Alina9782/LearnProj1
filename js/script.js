@@ -64,9 +64,9 @@ const personalMovieDB = {
 
     toggleVisibleMyDB: function () {
         if (personalMovieDB.privat) {
-            personalMovieDB = false;
+            personalMovieDB.privat = false;
         } else {
-            personalMovieDB = true;
+            personalMovieDB.privat = true;
         }
     }
 };
